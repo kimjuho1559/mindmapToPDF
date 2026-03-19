@@ -1,0 +1,12 @@
+# application-local.yml 작성 예시
+# 이 파일을 복사해서 application-local.yml 을 만들고 실제 값을 입력하세요.
+# cp application-local.yml.example application-local.yml
+
+spring:
+  datasource:
+    username: myuser
+    password: your_db_password_here
+
+openai:
+  api-key: xxxxxxxxxxxxxxxxxxxx
+  model: gpt-5.4-mini
